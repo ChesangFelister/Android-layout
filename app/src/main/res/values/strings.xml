@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">accountlogin</string>
+    <string name="say">Login Into Your Account</string>
+    <string name="top">RA</string>
+    <string name="login">Don\'t Remember Your Password? Click Here</string>
+    <string name="account">Not A Member?</string>
+
+
+</resources>
