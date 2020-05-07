@@ -4,6 +4,11 @@
     <string name="top">RA</string>
     <string name="login">Don\'t Remember Your Password? Click Here</string>
     <string name="account">Not A Member?</string>
+    <string name="user_name">User Name</string>
+    <string name="loginin">Login</string>
+    <string name="or">Or</string>
+    <string name="password">Password</string>
+    <string name="create_an_account">Create An Account</string>
 
 
 </resources>

@@ -100,7 +100,7 @@
         android:layout_marginLeft="10dp"
         android:layout_marginRight="10dp"
         android:inputType="textPersonName"
-        android:text="User Name"
+        android:text="@string/user_name"
         android:autofillHints="" />
 
     <EditText
@@ -114,13 +114,13 @@
         android:background="@drawable/round"
         android:ems="10"
         android:inputType="textPassword"
-        android:text="Password" />
+        android:text="@string/password"
+        android:autofillHints="" />
     <TextView
         android:id="@+id/tv2"
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:layout_marginTop="375dp"
-        android:layout_marginLeft="50dp"
         android:ems="10"
         android:textColor="@color/colorPrimaryDark"
         android:fontStyle="normal"
@@ -136,23 +136,23 @@
         android:layout_marginLeft="10dp"
         android:layout_marginRight="10dp"
         android:background="@drawable/round_green"
-        android:text="Login" />
+        android:text="@string/loginin" />
 
     <View
         android:id="@+id/view"
         android:layout_width="150dp"
         android:layout_height="7dp"
         android:layout_gravity="left"
-        android:layout_marginLeft="25dp"
+        android:layout_marginStart="25dp"
         android:layout_marginTop="450sp"
         android:background="#000000" />
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Or"
-        android:textSize="24dp"
+        android:text="@string/or"
+        android:textSize="24sp"
         android:textColor="@color/colorPrimaryDark"
-        android:layout_marginLeft="190dp"
+        android:layout_marginStart="190dp"
         android:layout_marginTop="438sp"/>
 
     <View
@@ -161,7 +161,7 @@
         android:layout_height="7dp"
         android:layout_gravity="right"
         android:layout_marginTop="450sp"
-        android:layout_marginRight="25dp"
+        android:layout_marginEnd="25dp"
         android:background="#000000" />
 <!--    <com.facebook.login.widget.LoginButton-->
 
@@ -176,7 +176,7 @@
         android:layout_width="wrap_content"
         android:layout_height="100dp"
         android:background="@drawable/mybutton"
-        android:layout_marginLeft="150dp"
+        android:layout_marginStart="150dp"
         android:icon="@mipmap/ic_launcher"
         android:layout_marginTop="480dp" />
     <Button
@@ -184,7 +184,7 @@
         android:layout_height="100dp"
         android:background="@drawable/mybutton"
         android:src="@drawable/ic_arrow_drop_down_circle_black_24dp"
-        android:layout_marginLeft="280dp"
+        android:layout_marginStart="280dp"
         android:layout_marginTop="480dp" />
 
     <TextView
@@ -192,7 +192,7 @@
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:layout_marginTop="650dp"
-        android:layout_marginLeft="50dp"
+        android:layout_marginStart="50dp"
         android:ems="10"
         android:textColor="@color/colorPrimaryDark"
         android:fontStyle="normal"
@@ -207,6 +207,6 @@
         android:layout_marginLeft="10dp"
         android:layout_marginRight="10dp"
         android:background="@drawable/round_green"
-        android:text="Create An Account" />
+        android:text="@string/create_an_account" />
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
